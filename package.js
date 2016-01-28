@@ -25,5 +25,4 @@ Package.onUse(function (api) {
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('clinical:active-layout-reset');
-  api.addFiles('active-layout-reset-tests.js');
 });
