@@ -1,0 +1,45 @@
+@media print {
+  #appLayout, #navbarLayer, #panelSurface, #mainPanel{
+    left: 0px !important;
+    min-height: 100%;
+    overflow: overlay;
+    clear: both;
+  }
+
+  #appLayout{
+    position:relative;
+    margin: 0px;
+    padding: 0px;
+
+    #successPanel{
+      height: 0px;
+    }
+
+    #navbarLayer{
+      top: 0px;
+      position:relative;
+
+      #panelSurface{
+        position:relative;
+
+        #mainPanel{
+          position:relative;
+          width: 100% !important;
+
+          #contentAnimation{
+            position: relative;
+          }
+        }
+      }
+      header,footer{
+        width: 100% !important;
+      }
+    }
+  }
+  #sidebar, #westPanel, #navbarFooter{
+    display: none;
+  }
+  img{
+    width: 100%;
+  }
+}

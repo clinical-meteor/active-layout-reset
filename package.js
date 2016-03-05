@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:active-layout-reset',
-  version: '0.0.2',
+  version: '0.1.0',
   summary: 'CSS reset for apps using clinical:active-layout',
   git: 'https://github.com/clinical-meteor/active-layout-reset',
   documentation: 'README.md'
@@ -20,6 +20,7 @@ Package.onUse(function (api) {
   api.addFiles('client/base.less', 'client');
   api.addFiles('client/cards.less', 'client');
   api.addFiles('client/forms.less', 'client');
+  api.addFiles('client/print.less', 'client');
 });
 
 Package.onTest(function(api) {
