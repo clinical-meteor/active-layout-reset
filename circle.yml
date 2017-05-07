@@ -41,7 +41,7 @@ dependencies:
     - cd helloworld/client && rm main.*
     - cd helloworld && meteor add anti:gagarin@0.4.12 session meteor-platform clinical:theming clinical:default-theme clinical:router clinical:router-default-config clinical:active-layout clinical:active-layout-pagescreen-config grove:less
 
-    - cd helloworld && git clone http://github.com/clinical-meteor/active-layout-reset packages/active-layout-reset
+    - cd helloworld && git clone http://github.com/clinical-meteor/active-layout-reset packages/active-layout-reset && meteor add clinical:active-layout-reset
 
     - cd helloworld && starrynight autoconfig
     - cd helloworld && meteor npm install
